@@ -1,0 +1,546 @@
+[
+  {
+    "id":0,
+    "title":"Francais",
+    "sub":"Fr",
+    "type":"ltr",
+    "data":{
+        "navbar":{
+            "whatsapp":"Connecter par WhatsApp"
+        },
+        "demand":{
+            "boxes":{
+              "telLabelfalse":"le téléphone doit contenir 10 chiffres",
+              "telLabeltrue":"le téléphone contient 10 chiffres",
+              "cityLabel":"Choisissez la ville"
+            }
+        }
+    },
+    "city":{
+      "villes":[
+          {
+            "city": "Casablanca"
+          }, 
+          {
+            "city": "El Kelaa des Srarhna"
+          }, 
+          {
+            "city": "Fès"
+          }, 
+          {
+            "city": "Tangier"
+          }, 
+          {
+            "city": "Marrakech"
+          }, 
+          {
+            "city": "Sale"
+          }, 
+          {
+            "city": "Rabat"
+          }, 
+          {
+            "city": "Meknès"
+          }, 
+          {
+            "city": "Kenitra"
+          }, 
+          {
+            "city": "Agadir"
+          }, 
+          {
+            "city": "Oujda-Angad"
+          }, 
+          {
+            "city": "Tétouan"
+          }, 
+          {
+            "city": "Taourirt"
+          }, 
+          {
+            "city": "Temara"
+          }, 
+          {
+            "city": "Safi"
+          }, 
+          {
+            "city": "Laâyoune"
+          }, 
+          {
+            "city": "Mohammedia"
+          }, 
+          {
+            "city": "Kouribga"
+          }, 
+          {
+            "city": "Béni Mellal"
+          }, 
+          {
+            "city": "El Jadid"
+          }, 
+          {
+            "city": "Ait Melloul"
+          }, 
+          {
+            "city": "Nador"
+          }, 
+          {
+            "city": "Taza"
+          }, 
+          {
+            "city": "Settat"
+          }, 
+          {
+            "city": "Barrechid"
+          }, 
+          {
+            "city": "Al Khmissat"
+          }, 
+          {
+            "city": "Inezgane"
+          }, 
+          {
+            "city": "Ksar El Kebir"
+          }, 
+          {
+            "city": "Larache"
+          }, 
+          {
+            "city": "Guelmim"
+          }, 
+          {
+            "city": "Khénifra"
+          }, 
+          {
+            "city": "Berkane"
+          }, 
+          {
+            "city": "Bouskoura"
+          }, 
+          {
+            "city": "Al Fqih Ben Çalah"
+          }, 
+          {
+            "city": "Oued Zem"
+          }, 
+          {
+            "city": "Sidi Slimane"
+          }, 
+          {
+            "city": "Errachidia"
+          }, 
+          {
+            "city": "Guercif"
+          }, 
+          {
+            "city": "Oulad Teïma"
+          }, 
+          {
+            "city": "Ad Dakhla"
+          }, 
+          {
+            "city": "Ben Guerir"
+          }, 
+          {
+            "city": "Wislane"
+          }, 
+          {
+            "city": "Tiflet"
+          }, 
+          {
+            "city": "Lqoliaa"
+          }, 
+          {
+            "city": "Taroudannt"
+          }, 
+          {
+            "city": "Sefrou"
+          }, 
+          {
+            "city": "Essaouira"
+          }, 
+          {
+            "city": "Fnidq"
+          }, 
+          {
+            "city": "Ait Ali"
+          }, 
+          {
+            "city": "Sidi Qacem"
+          }, 
+          {
+            "city": "Tiznit"
+          }, 
+          {
+            "city": "Moulay Abdallah"
+          }, 
+          {
+            "city": "Tan-Tan"
+          }, 
+          {
+            "city": "Warzat"
+          }, 
+          {
+            "city": "Youssoufia"
+          }, 
+          {
+            "city": "Sa’ada"
+          }, 
+          {
+            "city": "Martil"
+          }, 
+          {
+            "city": "Aïn Harrouda"
+          }, 
+          {
+            "city": "Skhirate"
+          }, 
+          {
+            "city": "Ouezzane"
+          }, 
+          {
+            "city": "Sidi Yahya Zaer"
+          }, 
+          {
+            "city": "Benslimane"
+          }, 
+          {
+            "city": "Al Hoceïma"
+          }, 
+          {
+            "city": "Beni Enzar"
+          }, 
+          {
+            "city": "M’diq"
+          }, 
+          {
+            "city": "Sidi Bennour"
+          }, 
+          {
+            "city": "Midalt"
+          }, 
+          {
+            "city": "Azrou"
+          }, 
+          {
+            "city": "Ain El Aouda"
+          }, 
+          {
+            "city": "Beni Yakhlef"
+          }, 
+          {
+            "city": "Semara"
+          }, 
+          {
+            "city": "Ad Darwa"
+          }, 
+          {
+            "city": "Al Aaroui"
+          }, 
+          {
+            "city": "Qasbat Tadla"
+          }, 
+          {
+            "city": "Boujad"
+          }, 
+          {
+            "city": "Jerada"
+          }, 
+          {
+            "city": "Chefchaouene"
+          }, 
+          {
+            "city": "Mrirt"
+          }, 
+          {
+            "city": "Sidi Mohamed Lahmar"
+          }, 
+          {
+            "city": "Tineghir"
+          }, 
+          {
+            "city": "El Aïoun"
+          }, 
+          {
+            "city": "Azemmour"
+          }, 
+          {
+            "city": "Temsia"
+          }, 
+          {
+            "city": "Zoumi"
+          }, 
+          {
+            "city": "Laouamra"
+          }, 
+          {
+            "city": "Zagora"
+          }, 
+          {
+            "city": "Ait Ourir"
+          }, 
+          {
+            "city": "Sidi Bibi"
+          }, 
+          {
+            "city": "Aziylal"
+          }, 
+          {
+            "city": "Sidi Yahia El Gharb"
+          }, 
+          {
+            "city": "Biougra"
+          }, 
+          {
+            "city": "Taounate"
+          }, 
+          {
+            "city": "Bouznika"
+          }, 
+          {
+            "city": "Aourir"
+          }, 
+          {
+            "city": "Zaïo"
+          }, 
+          {
+            "city": "Aguelmous"
+          }, 
+          {
+            "city": "El Hajeb"
+          }, 
+          {
+            "city": "Mnasra"
+          }, 
+          {
+            "city": "Mediouna"
+          }, 
+          {
+            "city": "Zeghanghane"
+          }, 
+          {
+            "city": "Imzouren"
+          }, 
+          {
+            "city": "Loudaya"
+          }, 
+          {
+            "city": "Oulad Zemam"
+          }, 
+          {
+            "city": "Bou Ahmed"
+          }, 
+          {
+            "city": "Tit Mellil"
+          }, 
+          {
+            "city": "Arbaoua"
+          }, 
+          {
+            "city": "Douar Oulad Hssine"
+          }, 
+          {
+            "city": "Bahharet Oulad Ayyad"
+          }, 
+          {
+            "city": "Mechraa Bel Ksiri"
+          }, 
+          {
+            "city": "Mograne"
+          }, 
+          {
+            "city": "Dar Ould Zidouh"
+          }, 
+          {
+            "city": "Asilah"
+          }, 
+          {
+            "city": "Demnat"
+          }, 
+          {
+            "city": "Lalla Mimouna"
+          }, 
+          {
+            "city": "Fritissa"
+          }, 
+          {
+            "city": "Arfoud"
+          }, 
+          {
+            "city": "Tameslouht"
+          }, 
+          {
+            "city": "Bou Arfa"
+          }, 
+          {
+            "city": "Sidi Smai’il"
+          }, 
+          {
+            "city": "Taza"
+          }, 
+          {
+            "city": "Souk et Tnine Jorf el Mellah"
+          }, 
+          {
+            "city": "Mehdya"
+          }, 
+          {
+            "city": "Oulad Hammou"
+          }, 
+          {
+            "city": "Douar Oulad Aj-jabri"
+          }, 
+          {
+            "city": "Aïn Taoujdat"
+          }, 
+          {
+            "city": "Dar Bel Hamri"
+          }, 
+          {
+            "city": "Chichaoua"
+          }, 
+          {
+            "city": "Tahla"
+          }, 
+          {
+            "city": "Bellaa"
+          }, 
+          {
+            "city": "Oulad Yaïch"
+          }, 
+          {
+            "city": "Ksebia"
+          }, 
+          {
+            "city": "Tamorot"
+          }, 
+          {
+            "city": "Moulay Bousselham"
+          }, 
+          {
+            "city": "Sabaa Aiyoun"
+          }, 
+          {
+            "city": "Bourdoud"
+          }, 
+          {
+            "city": "Aït Faska"
+          }, 
+          {
+            "city": "Boureït"
+          }, 
+          {
+            "city": "Lamzoudia"
+          }, 
+          {
+            "city": "Oulad Said"
+          }, 
+          {
+            "city": "Missour"
+          }, 
+          {
+            "city": "Ain Aicha"
+          }, 
+          {
+            "city": "Zawyat ech Cheïkh"
+          }, 
+          {
+            "city": "Bouknadel"
+          }, 
+          {
+            "city": "El Ghiate"
+          }, 
+          {
+            "city": "Safsaf"
+          }, 
+          {
+            "city": "Ouaoula"
+          }, 
+          {
+            "city": "Douar Olad. Salem"
+          }, 
+          {
+            "city": "Oulad Tayeb"
+          }, 
+          {
+            "city": "Echemmaia Est"
+          }, 
+          {
+            "city": "Oulad Barhil"
+          }, 
+          {
+            "city": "Douar ’Ayn Dfali"
+          }, 
+          {
+            "city": "Setti Fatma"
+          }, 
+          {
+            "city": "Skoura"
+          }, 
+          {
+            "city": "Douar Ouled Ayad"
+          }, 
+          {
+            "city": "Zawyat an Nwaçer"
+          }, 
+          {
+            "city": "Khenichet-sur Ouerrha"
+          }, 
+          {
+            "city": "Ayt Mohamed"
+          }, 
+          {
+            "city": "Gueznaia"
+          }, 
+          {
+            "city": "Oulad Hassoune"
+          }, 
+          {
+            "city": "Bni Frassen"
+          }, 
+          {
+            "city": "Tifariti"
+          }, 
+          {
+            "city": "Zawit Al Bour"
+          }
+      ]
+  }
+  },
+  {
+    "id":1,
+    "title":"English",
+    "sub":"En",
+    "type":"ltr",
+    "data":{
+        "navbar":{
+          "whatsapp":"Connect by Whatsapp"
+        },
+        "demand":{
+          "boxes":{
+            "telLabelfalse":"the phone must contain 10 digits",
+            "telLabeltrue":"the phone contain 10 digits",
+            "cityLabel":"Choose the City"
+          }
+        }
+    }
+  },
+  {
+      "id":2,
+      "title":"arabe",
+      "sub":"Ar",
+      "type":"rtl",
+      "data":{
+          "navbar":{
+            "whatsapp":"تواصل عبر الواتس اب"
+          },
+          "demand":{
+            "boxes":{
+              "telLabelfalse":"يجب أن يحتوي الهاتف على 10 أرقام",
+              "telLabeltrue":"يحتوي الهاتف على 10 أرقام",
+              "cityLabel":"اختر المدينة"
+            }
+          }
+      }
+  }
+]

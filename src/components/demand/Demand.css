@@ -1,0 +1,335 @@
+.demande {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 40%;
+    transition: all 500ms;
+    color: var(--primary);
+    font-family: var(--primaryFont);
+    padding-top: 1%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    left: 30%;
+} 
+.demande-box {
+    border-radius: 6px;
+    background-color: white;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 1% 2%;
+    height: 100vh;
+    margin: auto;
+    transition: all 500ms;
+    animation-name: show;
+    animation-duration: 0.8s;
+} 
+
+.black {
+    z-index: 1;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+@keyframes show {
+    0%   {opacity: 0; margin-top: -200px}
+    100%  {opacity: 100%; margin-top: 0px}
+}
+.close {
+    top: 1%;
+    right: -8%;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    position: absolute;
+    background: none;
+    border: none;
+    transition: all 300ms;
+}
+.close:hover {
+    color: #E73042;
+}
+.demande h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+.demande form {
+    display: grid;
+    padding: 0px 50px;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.demande .box {
+    margin: 0;
+    padding: 2px 0;
+    display: block;
+    margin-bottom: 15px;
+}
+.demande .box:last-child {
+    margin: 0;
+}
+.demande .box input {
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #E73042;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.box select {
+    width: 100%;
+    padding: 0px 20px;
+    border: none;
+    background: none;
+    color: black;
+    outline: none;
+    border-bottom: 2px solid #E73042;
+    font-size: 18px;
+}
+.box option {
+    color: black;
+}
+.tel {
+    justify-content: space-between;
+    display: flex;
+    padding: 4px 0;
+}
+.tel i {
+    font-size: 20px;
+}
+.box .number {
+    display: flex;
+    align-items: center;
+    transition: all 300ms;
+    justify-content: space-between;
+}
+.number h2 {
+    cursor: pointer;
+    padding: 0px 20px;
+    transition: all 300ms;
+}
+.number li {
+    color: white;
+    background-color: #E73042;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.demande .button, .button {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #E73042;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 300ms;
+    flex: 0.6;
+}
+.demande .button:hover, .number li:hover , .button:hover {
+    transform: scale(1.1);
+}
+
+
+.option {
+    display: flex;
+    align-items: center;
+}
+.selected {
+    justify-content: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.success {
+    position: absolute;
+    top: 10px;
+    margin-left: -2%;
+    background-color: cadetblue;
+    background-color: white;
+    width: 50%;
+    padding: 2% 4%;
+    border-radius: 6px;
+    color: white;
+    transition: all 500ms;
+    animation-name: show;
+    animation-duration: 0.6s;
+} 
+@keyframes show {
+    0%   {opacity: 0; margin-top: -200px}
+    100%  {opacity: 100%; margin-top: 0px}
+}
+.success h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.success h4 {
+    text-align: center;
+}
+.success div {
+    display: flex;
+    align-items: center;
+}
+.success h4 {
+    margin-right: 20px;
+}
+.success button {
+    float: right;
+    background: none;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    transition: all 300ms;
+}
+.success button:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1200px){
+    .demande {
+        top: 1%;
+        width: 50%;
+        left: 25%;
+    } 
+    .demande-box {
+        width: 80%;
+        overflow: hidden;
+        padding: 4% 2%;
+    }
+    .close {
+        top: 0;
+        right: 0%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .demande {
+        top: 2%;
+        width: 100%;
+        left: 0;
+    } 
+    .demande-box {
+        width: 100%;
+        overflow: hidden;
+        padding: 4% 2%;
+    }
+    .close {
+        top: 0;
+        right: 0%;
+        color: #06283D;
+    }
+    .demande h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .demande form .box {
+        padding: 6px 0;
+    }
+    .demande .box input {
+        margin-top: 4px;
+        font-size: 20px;
+    }
+    .box option {
+        color: black;
+    }
+
+
+    
+    .success {
+        top: 20px;
+        width: 100%;
+    }
+}
+
+
+.disabled {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #06283D;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 300ms;
+    opacity: 40%;
+    cursor: auto;
+}
+
+.modal-content .buttons {
+    width: 100%;
+}
+.buttons .cancel {
+    background: none;
+    color: #E73042;
+    flex: 0.2;
+}
+.cancel:hover {
+    transform: scale(1.5);
+}
+.modal-content {
+    border: none;
+    outline: none;
+}
+.modal-content .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.modal-footer {
+    margin: 0;
+}
+.modal-body {
+    margin: 0;
+}
+
+
+
+
+.succes {
+    position: fixed;
+    bottom: 0;
+    left: 2%;
+    z-index: 10;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.succes .box {
+    display: flex;
+    align-items: center;
+}
+.succes i, h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.succes li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.succes .block {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.succes .header {
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+}

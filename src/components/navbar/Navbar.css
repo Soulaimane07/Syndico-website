@@ -1,0 +1,322 @@
+.navbar {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    padding: 1% 5%;
+    position: fixed;
+    top: 0;
+    font-family: var(--primaryFont);
+}
+.container-fluid {
+    padding: 0;
+    color: var(--primary);
+    /* background-color: #00A783; */
+    justify-content: space-between;
+    
+}
+.navbar-nav {
+    align-items: center;
+}
+.navbar-nav.ltr {
+    right: 0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 5%;
+}
+
+
+.navbar.active {
+    background-color: white;
+    box-shadow: 0px 0px 50px #06283d30;
+}
+.navbar.active .logo {
+    width: 180px;
+}
+.navbar.active .langs {
+    top: 110px;
+}
+
+.nav-rtl {
+    float: left;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    left: 4%;
+    top: 60px;
+    position: absolute;
+}
+
+
+.logo {
+    width: 200px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.link {
+    margin: 0 30px;
+    cursor: pointer;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+h2 {
+    font-size: 24px;
+}
+.link:hover h2 {
+    padding: 0 0px;
+}
+
+
+.demo {
+    color: white;
+    background-color: var(--secondary);
+    padding: 10px 40px;
+    margin: 0 30px;
+    border-radius: 6px;
+}
+.demo:hover h2 {
+    transition: all 500ms;
+    transform: scale(1.2);
+}
+
+
+.glob {
+    background: none;
+    font-size: 24px;
+    padding: 0 20px;
+    outline: none;
+}
+.glob:hover {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+
+.langs {
+    z-index: 100;
+    position: absolute;
+    display: grid;
+    transition: all 300ms;
+    animation-duration: 0.8s;
+} 
+.langs {
+    animation-name: show;
+    z-index: 100;
+}
+.langs.rtl {
+    animation-name: rtl;
+    z-index: 100;
+}
+@keyframes show {
+    0%   {opacity: 0; top: 0px}
+    100%  {opacity: 100%; top: 100px}
+}
+@keyframes rtl {
+    0%   {opacity: 0; top: 0px}
+    100%  {opacity: 100%; top: 100px}
+}
+.langs button {
+    color: white;
+    background-color: var(--primary);
+    margin: 10px 0;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+.langs button:hover {
+    transition: all 300ms;
+    background-color: var(--secondary);
+}
+
+
+
+.whatsapp-div {
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    border-radius: 100px;
+    overflow: hidden;
+    color: white;
+    transition: all 300ms;
+}
+.whatsapp-div .whatsapp {
+    background-color: #00A783;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.whatsapp-div:hover {
+    transform: scale(1.2);
+}
+.whatsapp i {
+    transition: all 500ms;
+    font-size: 20px;
+}
+.whatsapp p {
+    font-size: 14px;
+    margin: 0 10px;
+    transition: all 500ms;
+}
+
+.media {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    margin: 0;
+    padding: 0;
+    transition: all 500ms;
+}
+.media li {
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: #06283D;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1s;
+    animation-name: top;
+}
+@keyframes top {
+    0%   {opacity: 0; margin-top: -100px}
+    100%  {opacity: 100%; margin-top: 0px}
+}
+.media li:hover {
+    transform: scale(1.2);
+}
+.media .top:hover i {
+    transition: all 1s;
+    transform: rotate(-360deg);
+}
+.media li:hover {
+    background-color: #E73042;
+}
+
+.li {
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 100ms;
+}
+.li:hover {
+    color: var(--secondary);
+}
+
+
+
+
+button.active {
+    background-color: #E73042;
+}
+@media only screen and (max-width: 992px){
+    .whatsapp-div .whatsapp {
+        padding: 20px;
+    }
+    .whatsapp i {
+        font-size: 25px;
+    }
+    .whatsapp p {
+        display: none;
+    }
+    
+
+    .navbar-nav.ltr {
+        position: initial;
+        right: 0%;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+    .li {
+        color: var(--primary);
+        width: 100%;
+        margin: 8px 0;
+        padding: 10px 0;
+        border-radius: 4px;
+    }
+    .li:hover {
+        background-color: var(--secondary);
+        color: white;
+    }
+    .navbar-nav {
+        /* margin: 20px 0; */
+    }
+
+    .demo {
+        border-radius: 6px;
+        width: 50%;
+        margin: 0;
+        margin: 30px 0;
+    }
+
+    .langs {
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        left: 0 !important;
+        right: 0 !important;
+        padding: 0 30px;
+        top: 500px !important;
+    animation-name: showex;
+
+    }
+    .langs.rtl {
+        top: 495px !important;
+    animation-name: rtlex;
+
+    }
+    .langs button {
+        font-size: 20px;
+        border-radius: 4px;
+        text-align: left;
+    }
+
+    @keyframes showex {
+        0%   {opacity: 0; top: 0px}
+        100%  {opacity: 100%; top: 350px}
+    }
+    @keyframes rtlex {
+        0%   {opacity: 0; top: 0px}
+        100%  {opacity: 100%; top: 350px}
+    }
+
+
+    /* .navbar-collapse {
+        background-color: white;
+        margin-left: -40px;
+        display: grid;
+    }
+    .navbar.active .rtl .navbar-collapse {
+        margin-left: -20px;
+        background-color: white;
+    }
+    .rtl .link {
+        width: 90%;
+    }
+    .rtl .li {
+        color: var(--primary);
+        width: 100%;
+        border-radius: 6px;
+        margin: 4px 0;
+        padding: 10px 0;
+    }
+    .rtl .li:hover {
+        background-color: var(--secondary);
+        color: white;
+    }
+     */
+
+
+    
+} 
